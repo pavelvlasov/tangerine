@@ -1,1 +1,1 @@
-# tangerine
+# Atlassian's Front-end Guidelines
