@@ -4,7 +4,7 @@
 
 | Topic                  | Guides                            | Tools | Rules              | Examples |
 | ---------------------- | --------------------------------- | ----- | ------------------ | -------- |
-| [Hooks](./react/hooks) | How to write hooks #3             | ...   | eslint-react-hooks | ...      |
+| [Hooks](./react/hooks) | How to write hooks [#3](/atlassian/tangerine/issues/3)             | ...   | eslint-react-hooks | ...      |
 | State Management       | Types of State, Remote State, ... | Adone | ...                | ...      |
 
 ## Package Structure
@@ -20,7 +20,7 @@
 
 ## SPA
 
-See #2
+See [#2](/atlassian/tangerine/issues/2)
 
 ## Performance
 
