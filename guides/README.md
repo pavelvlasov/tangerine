@@ -2,38 +2,43 @@
 
 ## React Code Architecture
 
-| Topic                  | Guides                            | Tools | Rules              | Examples |
-| ---------------------- | --------------------------------- | ----- | ------------------ | -------- |
-| [Hooks](./react/hooks) | How to write hooks [#3](/atlassian/tangerine/issues/3)             | ...   | eslint-react-hooks | ...      |
-| State Management       | Types of State, Remote State, ... | Adone | ...                | ...      |
-
-## Package Structure
-
-| Topic                   | Guides | Tools | Rules | Examples |
-| ----------------------- | ------ | ----- | ----- | -------- |
-| UI Components           | Guide  | ...   | ...   | ...      |
-| Encapsulated Components | Guide  | ...   | ...   | ...      |
-
-### General Tools:
-
-- Stricter
-
-## SPA
-
-See [#2](/atlassian/tangerine/issues/2)
-
-## Documentation
-
-// TODO
-
-## Performance
-
-// TODO
+| Theme                                        | Topic                                                                                               | Guides | Tools | Rules | Examples |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------ | :---: | :---: | :------: |
+| [App structure](./react/app-structure)       | [General info](./react/app-structure)                                                               | ..     |  ..   |  ...  |   ...    |
+|                                              | [UI layer](./react/app-structure/ui-layer)                                                          | ..     |  ..   |  ...  |   ...    |
+|                                              | [Services layer](./react/app-structure/services-layer)                                              | ..     |  ..   |  ...  |   ...    |
+|                                              | [Controllers layer](./react/app-structure/controllers-layer)                                        | ..     |  ..   |  ...  |   ...    |
+|                                              | [Common layer](./react/app-structure/common-layer)                                                  | ..     |  ..   |  ...  |   ...    |
+| [Code structure](./react/code-structure)     | [General info](./react/code-structure)                                                              | ..     |  ..   |  ...  |   ...    |
+|                                              | [UI layer](./react/code-structure/ui-layer)                                                         | ..     |  ..   |  ...  |   ...    |
+|                                              | [UI layer: examples](./react/code-structure/ui-layer/examples.md)                                   | ..     |  ..   |  ...  |   ...    |
+|                                              | [Services layer](./react/code-structure/services-layer)                                             | ..     |  ..   |  ...  |   ...    |
+|                                              | [Controllers layer](./react/code-structure/controllers-layer)                                       | ..     |  ..   |  ...  |   ...    |
+|                                              | [Core patterns](./react/code-structure/core-patterns)                                               | ..     |  ..   |  ...  |   ...    |
+|                                              | [Core patterns: components](./react/code-structure/core-patterns/components.md)                     | ..     |  ..   |  ...  |   ...    |
+|                                              | [Core patterns: dependency injection](./react/code-structure/core-patterns/dependency-injection.md) | ..     |  ..   |  ...  |   ...    |
+| [Hooks](./react/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                             | ...    |  ...  |  ...  |   ...    |
+| [State management](./react/state-management) | The state manifesto                                                                                 | ...    |  ...  |  ...  |   ...    |
+| [GraphQL](./react/graphql)                   | ...                                                                                                 | ...    |  ...  |  ...  |   ...    |
+| [SPA](./react/spa)                           | See [#2](/atlassian/tangerine/issues/2)                                                             | ...    |  ...  |  ...  |   ...    |
+| [Performance](./react/performance)           | ...                                                                                                 | ...    |  ...  |  ...  |   ...    |
 
 ## Monorepo Management
 
-// TODO
+| Theme                                              | Topic                                         | Guides | Tools | Rules | Examples |
+| -------------------------------------------------- | --------------------------------------------- | ------ | :---: | :---: | :------: |
+| [Package structure](./monorepo/packages-structure) | [General info](./monorepo/packages-structure) | ..     |  ..   |  ...  |   ...    |
 
 ## Design System
+
+| Theme                            | Topic | Guides | Tools | Rules | Examples |
+| -------------------------------- | ----- | ------ | :---: | :---: | :------: |
+| [Design system](./design-system) | ...   | ..     |  ..   |  ...  |   ...    |
+
+### General Tools:
+
+-   Stricter
+
+## Documentation
 
 // TODO
