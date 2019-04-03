@@ -1,0 +1,1 @@
+# How to structure your packages GUIDE
