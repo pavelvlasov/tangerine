@@ -1,3 +1,4 @@
-# Brief intro into why this folder exist
+# Code patterns that help with decomposition and scalability
 
-// TODO
+* [Everything is a component](./components.md)
+* [Dependency injection](./dependency-injection.md)
