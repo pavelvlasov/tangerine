@@ -4,6 +4,9 @@
 
 | Theme                                        | Topic                                                                                               | Guides |              Tools               | Rules | Examples |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
+| [App](./react/app)                           | [Routing](./react/app/routing)                                                                      |  ...   |               ...                |  ...  |   ...    |
+|                                              | [Server](react/app/server)                                                                          |  ...   |               ...                |  ...  |   ...    |
+|                                              | [SSR](react/app/ssr)                                                                                |  ...   |               ...                |  ...  |   ...    |
 | [App structure](./react/app-structure)       | [General info](./react/app-structure)                                                               |  ...   |               ...                |  ...  |   ...    |
 |                                              | [UI layer](./react/app-structure/ui-layer)                                                          |  ...   |               ...                |  ...  |   ...    |
 |                                              | [Services layer](./react/app-structure/services-layer)                                              |  ...   |               ...                |  ...  |   ...    |
@@ -20,7 +23,6 @@
 | [Hooks](./react/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                             |  ...   |               ...                |  ...  |   ...    |
 | [State management](./react/state-management) | The state manifesto                                                                                 |  ...   |               ...                |  ...  |   ...    |
 | [GraphQL](./react/graphql)                   | ...                                                                                                 |  ...   |               ...                |  ...  |   ...    |
-| [SPA](./react/spa)                           | See [#2](/atlassian/tangerine/issues/2)                                                             |  ...   |               ...                |  ...  |   ...    |
 | [Performance](./react/performance)           | ...                                                                                                 |  ...   |               ...                |  ...  |   ...    |
 | [Styling Components](./react/styling)        | See [#15](/atlassian/tangerine/issues/15)                                                           |  ...   | [Emotion 10](https://emotion.sh) |  ...  |   ...    |
 
