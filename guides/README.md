@@ -4,7 +4,8 @@
 
 | Theme                                        | Topic                                                                                               | Guides |              Tools               | Rules | Examples |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
-| [App](./react/app)                           | [Routing](./react/app/routing)                                                                      |  ...   |               ...                |  ...  |   ...    |
+| [App](./react/app)                           | [Pages](./react/app/pages)                                                                          |  ...   |               ...                |  ...  |   ...    |
+|                                              | [Routing](./react/app/routing)                                                                      |  ...   |               ...                |  ...  |   ...    |
 |                                              | [Server](react/app/server)                                                                          |  ...   |               ...                |  ...  |   ...    |
 |                                              | [SSR](react/app/ssr)                                                                                |  ...   |               ...                |  ...  |   ...    |
 | [App structure](./react/app-structure)       | [General info](./react/app-structure)                                                               |  ...   |               ...                |  ...  |   ...    |
