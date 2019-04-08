@@ -23,3 +23,11 @@ never be any imports from “UI” within “services”.
     name-of-the-util.test.js.
 -   context.js - in very rare cases, when the context is too big, it might make sense to extract it
     into its own file.
+
+
+---
+
+Related reading
+
+[Services components structure](../../code-structure/services-layer/README.md) |
+[State management](../../state-management/README.md)
