@@ -1,3 +1,0 @@
-# all about SPA
-
-// TODO
