@@ -19,9 +19,10 @@ data that is used in multiple places (something like issueStatus).
     has unit tests in a separate file with the name name-of-the-util.test.js.
 -   utils.test.js - tests for utils in a file.
 -   assets - images and other static resources that need to be shared across the entire package.
--   ui - small UI components that are re-used on different levels of hierarchy in a package. Should
-    follow exactly the same rules as UI components, with one exception: main.js can be optional,
-    since the shareable component can be just a styled component. In that case the component can
-    contain styled.js, index.js and examples.js only. If there is a need for a very complicated
-    component there it should be extracted as its own package.
+-   ui - collection of small UI components that are re-used on different levels of hierarchy in a
+    package. Should follow exactly the
+    [same rules as UI components](../../code-structure/ui-layer/structure.md) , with one exception:
+    main.js can be optional, since the shareable component can be just a styled component. In that
+    case the component can contain styled.js, index.js and examples.js only. If there is a need for
+    a very complicated component there it should be extracted as its own package.
 -   mocks - mock data that is used in different places of a package

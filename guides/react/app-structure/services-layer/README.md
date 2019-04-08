@@ -24,7 +24,6 @@ never be any imports from “UI” within “services”.
 -   context.js - in very rare cases, when the context is too big, it might make sense to extract it
     into its own file.
 
-
 ---
 
 Related reading
