@@ -21,7 +21,7 @@ data that is used in multiple places (something like issueStatus).
 -   assets - images and other static resources that need to be shared across the entire package.
 -   ui - collection of small UI components that are re-used on different levels of hierarchy in a
     package. Should follow exactly the
-    [same rules as UI components](../../code-structure/ui-layer/structure.md) , with one exception:
+    [same rules as UI components](../ui-layer/structure.md) , with one exception:
     main.js can be optional, since the shareable component can be just a styled component. In that
     case the component can contain styled.js, index.js and examples.js only. If there is a need for
     a very complicated component there it should be extracted as its own package.

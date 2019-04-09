@@ -28,5 +28,5 @@ never be any imports from “UI” within “services”.
 
 Related reading
 
-[Services components structure](../../code-structure/services-layer/README.md) |
-[State management](../../state-management/README.md)
+[Services components structure](structure.md) |
+[State management](../../../../state-management/README.md)
