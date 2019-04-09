@@ -207,7 +207,7 @@ or, if the service was implemented with React Context, then
 Exactly the same situation is with the services that can manipulate data
 
 ```
-<MyDataProvider>
+<MyServiceProvider>
     {({ error, loading, update }) => {
         if (error) {
             return <ErrorComponent />;
@@ -219,5 +219,19 @@ Exactly the same situation is with the services that can manipulate data
 
         return <Button onClick={update}>Click me!</Button>;
     }}
-</MyDataProvider>;
+</MyServiceProvider>;
 ```
+
+# Naming convention
+
+All services should have Services as a suffix. They should expose API in the form of an object with
+necessary meta-information about this service (whether it’s loading, there is an error, etc), data
+and API to manipulate this data (when needed). When a service is implemented with React Context API
+then it should export Provider/Consumer pair with the names that end with `ServiceConsumer` and
+`ServiceProvider` respectively
+
+Mandatory fields for simple services or Consumers:
+
+-   **loading: boolean** whether the query/mutation is in progress
+-   **error: Error** error object if something went wrong
+-   **data: any** result data
