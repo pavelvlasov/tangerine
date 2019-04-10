@@ -1,1 +1,7 @@
+## global code owners
 * @JedWatson @nadiam84 @treshugart
+
+## SPA code owners
+/guides/react/app/routing/ @rohan-deshpande @treshugart
+
+/guides/react/app/pages/ @rohan-deshpande @treshugart
