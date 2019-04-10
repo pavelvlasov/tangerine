@@ -2,8 +2,6 @@
 * @JedWatson @nadiam84 @treshugart
 
 ## SPA code owners
-/guides/react/app/routing/
-* @rohan-deshpande @treshugart
+/guides/react/app/routing/ @rohan-deshpande @treshugart
 
-/guides/react/app/pages/
-* @rohan-deshpande @treshugart
+/guides/react/app/pages/ @rohan-deshpande @treshugart
