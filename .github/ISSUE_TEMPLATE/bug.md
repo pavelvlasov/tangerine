@@ -4,7 +4,6 @@ about: Report a problem.
 title: "[Bug]"
 labels: bug
 assignees: ''
-
 ---
 
 ## What's the problem?
@@ -17,4 +16,4 @@ __Please describe what should be happening.___
 
 ## Any additional information
 
-__Please add any additional information such as operating system, browser or screenshots.__
+__Please provide any additional information such as a reproducible [codesandbox](https://codesandbox.io/), operating system, browser or screenshots.__
