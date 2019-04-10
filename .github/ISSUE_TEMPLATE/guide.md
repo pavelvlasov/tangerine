@@ -4,7 +4,6 @@ about: To propose changes to an existing guide or to propose a new guide.
 title: ''
 labels: guides
 assignees: ''
-
 ---
 
 ## Overview
