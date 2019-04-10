@@ -35,7 +35,7 @@ Consider, for example, a situation when a `ProjectWithIssuesPage` needs to fetch
 based on the `projectId`, and then fetch a list of issues for the `projectKey` that is extracted from
 that `Project` info.
 
-![Components situation](./assets/props-api.png)
+![Components situation](assets/props-api.png)
 
 In a pre-tangerine world we would isolate concerns based on their type: we would create
 rest/services/ops/state layers for both of those requests within the `ProjectWithIssuesPage` app, and

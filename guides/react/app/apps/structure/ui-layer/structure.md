@@ -13,13 +13,13 @@ components that this “entry” consumes. All those components should be comple
 other, should have clearly defined API and should not have any knowledge about their neighbours.
 Only the main.js file on the same level can import those components and compose them together.
 
-![UI composition-simple example](./assets/ui-composition.png)
+![UI composition-simple example](assets/ui-composition.png)
 
 Every component follows the same structure: it has main.js with the core logic of the component,
 index.js to re-export public API of that component, and it can have “children” components that are
 consumed by the “main” component on that level of hierarch only.
 
-![UI composition - big example](./assets/ui-composition-2.png)
+![UI composition - big example](assets/ui-composition-2.png)
 
 That way it is always clear, on every level hierarchy, what is composed from what and how everything
 is structured. Furthermore, structure like this excludes all possibilities of any circular
@@ -48,7 +48,7 @@ API, rather than literally describing the UI on the screen.
 
 Consider, for example, a feedback dialog with the following logical structure
 
-![UI composition - closer to reality](./assets/feedback.png)
+![UI composition - closer to reality](assets/feedback.png)
 
 The way we would implement it in a "tangerine-compliant" way would be to isolate “meaningful”
 components and flatten the hierarchy. With that in mind, the recommended way to structure this app
