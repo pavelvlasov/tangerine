@@ -1,20 +1,20 @@
 # Guides
 
-## React Code Architecture
+## Code Architecture
 
-| Theme                                        | Topic                                                                                              | Guides |              Tools               | Rules | Examples |
-| -------------------------------------------- | -------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
-| [App](./react/app)                           | [Components (atoms and molecules)](<./react/app/components%20(atoms%20and%20molecules)/README.md>) |  ...   |               ...                |  ...  |   ...    |
-|                                              | [Apps (organisms)](<./react/app/apps%20(organisms)/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
-|                                              | [Pages](./react/app/pages)                                                                         |  ...   |               ...                |  ...  |   ...    |
-|                                              | [Routing](./react/app/routing)                                                                     |  ...   |               ...                |  ...  |   ...    |
-|                                              | [Server](react/app/server)                                                                         |  ...   |               ...                |  ...  |   ...    |
-|                                              | [SSR](react/app/ssr)                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [Hooks](./react/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                            |  ...   |               ...                |  ...  |   ...    |
-| [State management](./react/state-management) | The state manifesto                                                                                |  ...   |               ...                |  ...  |   ...    |
-| [GraphQL](./react/graphql)                   | ...                                                                                                |  ...   |               ...                |  ...  |   ...    |
-| [Performance](./react/performance)           | ...                                                                                                |  ...   |               ...                |  ...  |   ...    |
-| [Styling Components](./react/styling)        | See [#15](/atlassian/tangerine/issues/15)                                                          |  ...   | [Emotion 10](https://emotion.sh) |  ...  |   ...    |
+| Theme                                       | Topic                                                                                             | Guides |              Tools               | Rules | Examples |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
+| [App](./code/app)                           | [Components (atoms and molecules)](<./code/app/components%20(atoms%20and%20molecules)/README.md>) |  ...   |               ...                |  ...  |   ...    |
+|                                             | [Apps (organisms)](<./code/app/apps%20(organisms)/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
+|                                             | [Pages](./code/app/pages)                                                                         |  ...   |               ...                |  ...  |   ...    |
+|                                             | [Routing](./code/app/routing)                                                                     |  ...   |               ...                |  ...  |   ...    |
+|                                             | [Server](./code/app/server)                                                                       |  ...   |               ...                |  ...  |   ...    |
+|                                             | [SSR](./code/app/ssr)                                                                             |  ...   |               ...                |  ...  |   ...    |
+| [Hooks](./code/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                           |  ...   |               ...                |  ...  |   ...    |
+| [State management](./code/state-management) | The state manifesto                                                                               |  ...   |               ...                |  ...  |   ...    |
+| [GraphQL](./code/graphql)                   | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
+| [Performance](./code/performance)           | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
+| [Styling Components](./code/styling)        | See [#15](/atlassian/tangerine/issues/15)                                                         |  ...   | [Emotion 10](https://emotion.sh) |  ...  |   ...    |
 
 ## Monorepo Management
 
@@ -30,7 +30,7 @@
 
 ### General Tools:
 
--   Stricter
+- Stricter
 
 ## Documentation
 

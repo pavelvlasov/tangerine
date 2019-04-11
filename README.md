@@ -1,6 +1,6 @@
 # Tangerine
 
-> Tangerine is a collection of documentation, guides and packages that aims to formalize best-practices, patterns and abstractions that we use for frontend development across Atlassian.
+> Tangerine is a collection of documentation, guides and packages that aims to formalize best-practices, patterns and abstractions that we use for React and general frontend development across Atlassian.
 
 Tangerine is organised into 3 sections.
 
