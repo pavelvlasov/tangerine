@@ -1,0 +1,27 @@
+{
+  "name": "tangerine",
+  "version": "1.0.0",
+  "description": "Tangerine is a collection of documentation, guides and packages that aims to formalize best-practices, patterns and abstractions that we use for React and general frontend development across Atlassian.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs": "brisk dev",
+    "docs:build": "brisk build"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlassian/tangerine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atlassian/tangerine/issues"
+  },
+  "homepage": "https://github.com/atlassian/tangerine#readme",
+  "dependencies": {
+    "@brisk-docs/website": "^0.3.9",
+    "babel-plugin-transform-dynamic-import": "^2.1.0"
+  }
+}
