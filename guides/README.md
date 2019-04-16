@@ -4,8 +4,8 @@
 
 | Theme                                       | Topic                                                                                             | Guides |              Tools               | Rules | Examples |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
-| [App](./code/app)                           | [Components (atoms and molecules)](<./code/app/components%20(atoms%20and%20molecules)/README.md>) |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Apps (organisms)](<./code/app/apps%20(organisms)/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
+| [App](./code/app)                           | [Components (atoms and molecules)](<./code/app/components architecture/README.md>) |  ...   |               ...                |  ...  |   ...    |
+|                                             | [Apps (organisms)](<./code/app/apps/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
 |                                             | [Pages](./code/app/pages)                                                                         |  ...   |               ...                |  ...  |   ...    |
 |                                             | [Routing](./code/app/routing)                                                                     |  ...   |               ...                |  ...  |   ...    |
 |                                             | [Server](./code/app/server)                                                                       |  ...   |               ...                |  ...  |   ...    |
