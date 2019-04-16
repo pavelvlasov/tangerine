@@ -1,0 +1,23 @@
+{
+  "name": "tangerine",
+  "version": "0.0.0",
+  "description": "A collection of documentation, guides and packages that aims to formalize best-practices, patterns and abstractions that we use for React and general frontend development across Atlassian.",
+  "main": "index.js",
+  "repository": "git@github.com:atlassian/tangerine.git",
+  "author": "Atlassian Pty Ltd",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces run lint",
+    "test": "yarn workspaces run test"
+  },
+  "engines": {
+    "yarn": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest-junit": "^6.3.0"
+  }
+}
