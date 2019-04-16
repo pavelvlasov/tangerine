@@ -1,8 +1,8 @@
 # eslint-plugin-tangerine
 
-A set of [Eslint](https://github.com/eslint/eslint) rules developed by [Atlassian](https://www.atlassian.com/) as part of Jira's Tangerine 🍊 initiative.
+A set of [Eslint](https://github.com/eslint/eslint) rules developed by [Atlassian](https://www.atlassian.com/) as part of [Tangerine 🍊](https://github.com/atlassian/tangerine).
 
-![Tangerine](https://bitbucket.org/atlassian/eslint-plugin-tangerine/raw/master/resources/tangerine-transparent.png)
+![Tangerine](https://github.com/atlassian/tangerine/raw/master/packages/eslint-plugin-tangerine/resources/tangerine-transparent.png)
 
 ## Installation
 
@@ -33,7 +33,7 @@ You can now enable the rules you want to use:
 ```json
 {
   "rules": {
-    "tangerine/import/order": "error"
+    "tangerine/import/restricted-paths": "error"
   }
 }
 ```
@@ -42,7 +42,9 @@ You can now enable the rules you want to use:
 
 Rules with the wrench icon 🔧 can automatically be fixed by passing the `--fix` option to the [command line](https://eslint.org/docs/user-guide/command-line-interface#fix)
 
-\${rules}
+### import
+
+- Disallow imports between certain paths ([import/no-restricted-paths](./rules/import/no-restricted-paths/README.md))
 
 ## Contributing
 
