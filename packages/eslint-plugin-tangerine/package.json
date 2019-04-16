@@ -2,7 +2,7 @@
     "name": "eslint-plugin-tangerine",
     "version": "0.1.0",
     "description": "Custom eslint rules used by Tangerine at Atlassian",
-    "homepage": "https://bitbucket.org/atlassian/eslint-plugin-atlassian",
+    "homepage": "https://github.com/atlassian/tangerine/tree/master/packages/eslint-plugin-tangerine",
     "author": "Atlassian",
     "license": "MIT",
     "keywords": [
@@ -28,7 +28,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "ssh://git@bitbucket.org:atlassian/eslint-plugin-atlassian.git"
+        "url": "https://github.com/atlassian/tangerine.git",
+        "directory": "packages/eslint-plugin-tangerine"
     },
     "engines": {
         "node": ">=8.0.0"
