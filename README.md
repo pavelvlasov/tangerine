@@ -12,7 +12,7 @@ Tangerine is organised into 3 sections.
 
 We are working on creating PRs to bring stuff over from internal resources.
 
-The first iteration of tangerine will contain docs and guides in markdown format. We may even publish packages from a basic monorepo setup.
+The first iteration of tangerine will contain [docs](./docs/README.md) and [guides](./guides/README.md) in markdown format. We may even publish packages from a basic monorepo setup.
 
 From there, we will be build a website based off of the markdown documents that aims to bring together the docs, guides and packages into a cohesive source of truth.
 

@@ -2,36 +2,39 @@
 
 ## Code Architecture
 
-| Theme                                       | Topic                                                                                             | Guides |              Tools               | Rules | Examples |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
-| [App](./code/app)                           | [Components (atoms and molecules)](<./code/app/components architecture/README.md>) |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Apps (organisms)](<./code/app/apps/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Pages](./code/app/pages)                                                                         |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Routing](./code/app/routing)                                                                     |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Server](./code/app/server)                                                                       |  ...   |               ...                |  ...  |   ...    |
-|                                             | [SSR](./code/app/ssr)                                                                             |  ...   |               ...                |  ...  |   ...    |
-| [Hooks](./code/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                           |  ...   |               ...                |  ...  |   ...    |
-| [State management](./code/state-management) | The state manifesto                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [GraphQL](./code/graphql)                   | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [Performance](./code/performance)           | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [Styling Components](./code/styling)        | See [#15](/atlassian/tangerine/issues/15)                                                         |  ...   | [Emotion 10](https://emotion.sh) |  ...  |   ...    |
+### How to build your apps: general architecture guidelines
+
+* [Apps](./code/app/apps/README.md)
+* [Components](<./code/app/components architecture/README.md>)
+* [Hooks](./code/hooks/README.md) 
+* [Styling Components](./code/styling/README.md)
+* [State management](./code/state-management/README.md)
+
+## SPA
+
+* [Pages](./code/app/pages/README.md)
+* [Routing](./code/app/routing/README.md)
+
+## [SSR](./code/app/ssr/README.md)
+
+TBD
+
+## [Performance](./code/performance/README.md)
+
+TBD
+
+## [GraphQL](./code/graphql/README.md)
+
+TBD
 
 ## Monorepo Management
 
-| Theme                                              | Topic                                         | Guides | Tools | Rules | Examples |
-| -------------------------------------------------- | --------------------------------------------- | ------ | :---: | :---: | :------: |
-| [Package structure](./monorepo/packages-structure) | [General info](./monorepo/packages-structure) | ..     |  ..   |  ...  |   ...    |
+[Package structure](./monorepo/packages-structure/README.md)
 
-## Design System
+## [Design system](./design-system/README.md)
 
-| Theme                            | Topic | Guides | Tools | Rules | Examples |
-| -------------------------------- | ----- | ------ | :---: | :---: | :------: |
-| [Design system](./design-system) | ...   | ..     |  ..   |  ...  |   ...    |
+TBD
 
 ### General Tools:
 
-- Stricter
-
-## Documentation
-
-// TODO
+-   Stricter
