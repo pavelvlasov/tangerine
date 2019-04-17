@@ -44,7 +44,10 @@ Rules with the wrench icon 🔧 can automatically be fixed by passing the `--fix
 
 ### import
 
-- Disallow imports between certain paths ([import/no-restricted-paths](./rules/import/no-restricted-paths/README.md))
+- Restrict imports from parent paths in specific directories ([import/no-parent-imports](./rules/import/no-parent-imports/README.md))
+
+- Restrict imports between different parts of your app based on path matching. ([import/no-restricted-paths](./rules/import/no-restricted-paths/README.md))
+
 
 ## Contributing
 
