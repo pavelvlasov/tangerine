@@ -1,6 +1,6 @@
 # Services and data providers
 
-Useful pre-read: [State Management](../../../../state-management)
+Useful pre-read: [State Management](../../state-management)
 
 Every time there is a need to fetch some data with a rest request, perform a POST request, read from
 local storage/cookies, etc, what is actually happening is an attempt to “sync” components that are
