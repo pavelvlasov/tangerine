@@ -2,36 +2,39 @@
 
 ## Code Architecture
 
-| Theme                                       | Topic                                                                                             | Guides |              Tools               | Rules | Examples |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------------- | :----: | :------------------------------: | :---: | :------: |
-| [App](./code/app)                           | [Components (atoms and molecules)](<./code/app/components architecture/README.md>) |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Apps (organisms)](<./code/app/apps/README.md>)                                     |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Pages](./code/app/pages)                                                                         |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Routing](./code/app/routing)                                                                     |  ...   |               ...                |  ...  |   ...    |
-|                                             | [Server](./code/app/server)                                                                       |  ...   |               ...                |  ...  |   ...    |
-|                                             | [SSR](./code/app/ssr)                                                                             |  ...   |               ...                |  ...  |   ...    |
-| [Hooks](./code/hooks)                       | See [#3](/atlassian/tangerine/issues/3)                                                           |  ...   |               ...                |  ...  |   ...    |
-| [State management](./code/state-management) | The state manifesto                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [GraphQL](./code/graphql)                   | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [Performance](./code/performance)           | ...                                                                                               |  ...   |               ...                |  ...  |   ...    |
-| [Styling Components](./code/styling)        | See [#15](/atlassian/tangerine/issues/15)                                                         |  ...   | [Emotion 10](https://emotion.sh) |  ...  |   ...    |
+### How to build your apps: general architecture guidelines
+
+* [Apps](./code/app/apps)
+* [Components](<./code/app/components architecture>)
+* [Hooks](./code/hooks) 
+* [Styling Components](./code/styling)
+* [State management](./code/state-management)
+
+## SPA
+
+* [Pages](./code/app/pages)
+* [Routing](./code/app/routing)
+
+## [SSR](./code/app/ssr)
+
+TBD
+
+## [Performance](./code/performance)
+
+TBD
+
+## [GraphQL](./code/graphql)
+
+TBD
 
 ## Monorepo Management
 
-| Theme                                              | Topic                                         | Guides | Tools | Rules | Examples |
-| -------------------------------------------------- | --------------------------------------------- | ------ | :---: | :---: | :------: |
-| [Package structure](./monorepo/packages-structure) | [General info](./monorepo/packages-structure) | ..     |  ..   |  ...  |   ...    |
+[Package structure](./monorepo/packages-structure)
 
-## Design System
+## [Design system](./design-system)
 
-| Theme                            | Topic | Guides | Tools | Rules | Examples |
-| -------------------------------- | ----- | ------ | :---: | :---: | :------: |
-| [Design system](./design-system) | ...   | ..     |  ..   |  ...  |   ...    |
+TBD
 
 ### General Tools:
 
-- Stricter
-
-## Documentation
-
-// TODO
+-   Stricter
