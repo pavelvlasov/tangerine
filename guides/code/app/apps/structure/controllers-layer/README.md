@@ -29,4 +29,4 @@ never be any imports from “UI” within “services”.
 Related reading
 
 [Controllers components structure](structure.md) |
-[State management](../../../../state-management/README.md)
+[State management](../../../../state-management)
