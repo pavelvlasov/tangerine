@@ -45,7 +45,7 @@ All UI components should be structured in exactly the same way
   shallow snapshots of the component with the description "component should render".
 - assets - images and other static resources required by this component.
 - examples.js - render examples of usage of this component. See more details in
-  [Examples for UI components](examples.md).
+  [Examples for UI components](../../components/components-types/ui/examples.md).
 - utils.js - utils that are specific for this particular component.
 - utils - when a component needs to do a lot of transformations or other operations, a single
   "utils.js" is not enough. When this happens they can be put in a folder instead and separated
@@ -56,8 +56,8 @@ All UI components should be structured in exactly the same way
 
 Related reading
 
-[UI components structure](structure.md) |
-[Examples for UI components](examples.md)
+[UI components structure](../../components/components-types/ui/README.md) |
+[Examples for UI components](../../components/components-types/ui/examples.md)
 
 ## Rules
 

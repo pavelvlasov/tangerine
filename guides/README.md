@@ -11,7 +11,7 @@ tangerine-compliant code
     * [Everything is a component](architecture/general/components/everything-is-a-component.md)
     * [Dependency injection pattern](architecture/general/components/dependency-injection.md)
     * [Components types](architecture/general/components/components-types)
-        * UI components: TBD
+        * [UI components](architecture/general/components/components-types/ui)
             * Writing examples: TBD
         * [Services](architecture/general/components/components-types/services)
         * Controllers: TBD
