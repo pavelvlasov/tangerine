@@ -50,7 +50,7 @@ The remote state can be defined as a state that mirrors remote data set. For exa
 issues received from the REST request, or a list of companies provided via GraphQL endpoint would be
 a remote state.
 
-![Remote state](./assets/remote-state.png)
+![Remote state](assets/remote-state.png)
 
 A good example of implementing this pattern would be Apollo and Query component that fetches a
 GraphQL query and exposes the result to your component so that you can render your UI based on the
@@ -64,7 +64,7 @@ about it: whether a request is loading, finished loading, failed for some reason
 almost always comes from the same state management system, but it is important to think about it
 independently because it is also can be relevant for other situations like loading async js bundles.
 
-![Async state](./assets/async-state.png)
+![Async state](assets/async-state.png)
 
 There are two main patterns that have emerged in this area:
 
@@ -92,7 +92,7 @@ transfer the router state down to encapsulated components. The router does not s
 neither controls it, it just provides an API to the router state and window.location is ultimately
 the store.
 
-![Async state](./assets/router-state.png)
+![Async state](assets/router-state.png)
 
 De-facto industry standard here is react-router which provides declarative routing solution to React
 applications.
@@ -122,7 +122,7 @@ would have to accept the Navigation state and API as props and pass them down to
 Those components between the root of the app and the form are the definition of components that
 should not have knowledge of each other.
 
-![Shared state](./assets/shared-state.png)
+![Shared state](assets/shared-state.png)
 
 The simplest way to implement shared state that is commonly used now is via React context api.
 
@@ -142,7 +142,7 @@ distinguish between local and shared state. More often than not it boils down to
 complex is this UI and how much it changes over time", and sometimes solutions that are used for the
 shared state could be preferred as a local state management to avoid props drilling.
 
-![Local state](./assets/local-state.png)
+![Local state](assets/local-state.png)
 
 ### Controlled state
 
@@ -154,7 +154,7 @@ state. It also has the ability to manipulate its own open or closed state, which
 for that component. The select can expose initialOpen/isOpen + onChange props for the consumers,
 which is a well-established pattern, to switch between uncontrolled/controlled state respectively.
 
-![Local state](./assets/controlled-state.png)
+![Local state](assets/controlled-state.png)
 
 ## API bindings patterns
 

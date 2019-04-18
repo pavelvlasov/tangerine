@@ -1,6 +1,16 @@
-# App src structure
+# App
 
-As mentioned in [packages structure](../../../../monorepo/packages-structure/README.md), the src folder
+Maps directly to the [organisms](http://bradfrost.com/blog/post/atomic-web-design/#organisms)
+concept of atomic design
+
+Any app is a composition of components
+([atoms](http://bradfrost.com/blog/post/atomic-web-design/#atoms) and
+[molecules](http://bradfrost.com/blog/post/atomic-web-design/#molecules))
+
+
+## App src structure
+
+As mentioned in [packages structure](../../../monorepo/packages-structure/README.md), the src folder
 should contain all the source code of a package. In a simple case of a small package with just one
 component inside, it can contain only a few files that follow guidelines for structuring components
 (of any type). If a package is more complicated than a simple component, it should follow this
@@ -9,7 +19,7 @@ structure:
 - [ui](ui-layer/README.md) - all components that are considered “UI” components,
   i.e. anything that renders something on a screen. This is the main part of any app, most of
   logic will go here, including composition of different components,
-  [services](services-layer/structure.md) and
+  [services](../services-layer/structure.md) and
   [state controllers](controllers-layer/structure.md). Should follow all the
   guidelines for structuring UI folder.
 - [services](services-layer/README.md) - services and other data providers that
