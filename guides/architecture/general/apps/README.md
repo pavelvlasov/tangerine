@@ -40,8 +40,6 @@ structure:
 
 ## Rules
 
-### Eslint
-
 ### [import/no-restricted-paths](/packages/eslint-plugin-tangerine/rules/import/no-restricted-paths)
 
 The below configuration restricts importing from certain directories as per the app guidelines:
@@ -54,26 +52,26 @@ The below configuration restricts importing from certain directories as per the 
 
 ```js
 'tangerine/import/no-restricted-paths': [
-    'error',
-    {
-        basePath: path.join(appRoot, 'src'),
-        srcRoot: 'src',
-        restrictions: [
-            {
-                target: 'services',
-                from: ['controllers', 'ui'],
-            },
-            {
-                target: 'controllers',
-                from: ['services', 'ui'],
-            },
-            {
-                target: 'common',
-                from: ['services', 'controllers', 'ui'],
-            },
-        ],
-        message:
-            '\nSee https://github.com/atlassian/tangerine/tree/master/guides/code/app/apps/structure for more details.',
-    },
+  'error',
+  {
+    basePath: path.join(appRoot, 'src'),
+    srcRoot: 'src',
+    restrictions: [
+      {
+        target: 'services',
+        from: ['controllers', 'ui'],
+      },
+      {
+        target: 'controllers',
+        from: ['services', 'ui'],
+      },
+      {
+        target: 'common',
+        from: ['services', 'controllers', 'ui'],
+      },
+    ],
+    message:
+      '\nSee https://github.com/atlassian/tangerine/tree/master/guides/code/app/apps/structure for more details.',
+  },
 ],
 ```

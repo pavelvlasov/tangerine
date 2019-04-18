@@ -29,6 +29,6 @@ const categoryMarkdowns = categoryFolders.map(categoryFolder => {
 const markdown = categoryMarkdowns.join('\n');
 // this is not an error; we want to replace the actual string in `README.md` template file that has dollar and curlies in it
 // eslint-disable-next-line no-template-curly-in-string
-const output = template.replace('${rules}', markdown);
+const output = template.replace('\\${rules}', markdown);
 
 fs.writeFileSync('./README.md', output);

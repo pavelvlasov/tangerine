@@ -50,7 +50,7 @@ const getApplicableRestrictions = (restrictions, basePath, currentFilepath) =>
 module.exports = {
   meta: {
     docs: {
-      description: 'Disallow imports between certain paths',
+      description: 'Restrict imports between different parts of your app based on path matching.',
     },
     schema: [
       {
