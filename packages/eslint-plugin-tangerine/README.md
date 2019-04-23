@@ -44,9 +44,19 @@ Rules with the wrench icon 🔧 can automatically be fixed by passing the `--fix
 
 ### import
 
+- Enforce consistent default import names for specified sources ([import/default-import-names](./rules/import/default-import-names/README.md) 🔧)
+
+- Disallow unnecessary trailing '/index' in imports ([import/no-dangling-index](./rules/import/no-dangling-index/README.md) 🔧)
+
+- Remove leading `./` in relative imports from other folders ([import/no-dot-prefix-in-upward-relative-imports](./rules/import/no-dot-prefix-in-upward-relative-imports/README.md) 🔧)
+
+- Enforce use of explicit over implicit imports ([import/no-implicit-imports](./rules/import/no-implicit-imports/README.md) 🔧)
+
 - Restrict imports from parent paths in specific directories ([import/no-parent-imports](./rules/import/no-parent-imports/README.md))
 
 - Restrict imports between different parts of your app based on path matching. ([import/no-restricted-paths](./rules/import/no-restricted-paths/README.md))
+
+- Enforce specific order of ES6 imports ([import/order](./rules/import/order/README.md) 🔧)
 
 
 ## Contributing

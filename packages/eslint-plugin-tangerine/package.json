@@ -1,60 +1,61 @@
 {
-    "name": "eslint-plugin-tangerine",
-    "version": "0.1.0",
-    "description": "Custom eslint rules used by Tangerine at Atlassian",
-    "homepage": "https://github.com/atlassian/tangerine/tree/master/packages/eslint-plugin-tangerine",
-    "author": "Atlassian",
-    "license": "MIT",
-    "keywords": [
-        "eslint",
-        "eslint-plugin",
-        "eslintplugin",
-        "atlassian",
-        "tangerine"
-    ],
-    "main": "index.js",
-    "scripts": {
-        "lint": "eslint ./",
-        "test": "yarn jest",
-        "publish-current": "node scripts/publish"
-    },
-    "files": [
-        "rules",
-        "utils",
-        "constants.js",
-        "index.js",
-        "LICENSE.txt",
-        "README.md"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/atlassian/tangerine.git",
-        "directory": "packages/eslint-plugin-tangerine"
-    },
-    "engines": {
-        "node": ">=8.0.0"
-    },
-    "jest-junit": {
-        "outputName": "eslint-plugin-tangerine-test-results.xml"
-    },
-    "dependencies": {
-        "escape-string-regexp": "^1.0.5",
-        "lodash": "^4.17.5",
-        "path-is-inside": "^1.0.2"
-    },
-    "devDependencies": {
-        "babel-eslint": "^8.2.1",
-        "eslint": "^4.17.0",
-        "eslint-config-airbnb-base": "^12.1.0",
-        "eslint-config-prettier": "^2.9.0",
-        "eslint-plugin-import": "^2.8.0",
-        "eslint-plugin-jest": "^21.3.2",
-        "eslint-plugin-prettier": "^2.6.0",
-        "jest": "^22.2.1",
-        "outdent": "^0.7.0",
-        "prettier": "^1.10.2"
-    },
-    "peerDependencies": {
-        "eslint": "^3.0.0 || ^4.0.0"
-    }
+  "name": "eslint-plugin-tangerine",
+  "version": "0.1.0",
+  "description": "Custom eslint rules used by Tangerine at Atlassian",
+  "homepage": "https://github.com/atlassian/tangerine/tree/master/packages/eslint-plugin-tangerine",
+  "author": "Atlassian",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "atlassian",
+    "tangerine"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "yarn jest",
+    "publish-current": "node scripts/publish",
+    "update-readme": "node generate-readme.js"
+  },
+  "files": [
+    "rules",
+    "utils",
+    "constants.js",
+    "index.js",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atlassian/tangerine.git",
+    "directory": "packages/eslint-plugin-tangerine"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "jest-junit": {
+    "outputName": "eslint-plugin-tangerine-test-results.xml"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "lodash": "^4.17.5",
+    "path-is-inside": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.2.1",
+    "outdent": "^0.7.0",
+    "prettier": "^1.10.2"
+  },
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0"
+  }
 }
