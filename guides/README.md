@@ -12,7 +12,7 @@ tangerine-compliant code
     * [Dependency injection pattern](architecture/general/components/dependency-injection.md)
     * [Components types](architecture/general/components/components-types)
         * [UI components](architecture/general/components/components-types/ui)
-            * Writing examples: TBD
+            * [Writing examples](architecture/general/components/components-types/ui/examples.md)
         * [Services](architecture/general/components/components-types/services)
         * Controllers: TBD
     * [State management: core concepts](architecture/general/components/state-management)
