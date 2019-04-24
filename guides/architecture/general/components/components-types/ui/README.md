@@ -81,3 +81,12 @@ example, there are clear boundaries that can be extracted: modal dialog with eve
 success flag, which sits outside of the logic of the actual modal. That being said, although the
 second code example technically do not violate any formal rules, the **first code example** would be
 “blessed” and **recommended** way to structure feedback-dialog app in a tangerine-compliant way.
+
+-----
+
+## Related reading
+
+[State management: core concepts](../../state-management)
+[Everything is a component](../../everything-is-a-component.md)
+[Writing examples for UI components](examples.md)
+[Using dependency injections](../../dependency-injection.md)

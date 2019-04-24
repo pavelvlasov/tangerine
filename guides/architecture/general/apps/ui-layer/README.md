@@ -54,9 +54,10 @@ All UI components should be structured in exactly the same way
 
 ---
 
-Related reading
+## Related reading
 
-[UI components structure](../../components/components-types/ui/README.md) |
+[State management: core concepts](../../components/state-management)
+[Architecture and guide for UI components](../../components/components-types/ui/README.md) |
 [Examples for UI components](../../components/components-types/ui/examples.md)
 
 ## Rules

@@ -235,3 +235,13 @@ Mandatory fields for simple services or Consumers:
 -   **loading: boolean** whether the query/mutation is in progress
 -   **error: Error** error object if something went wrong
 -   **data: any** result data
+
+
+-----
+
+## Related reading
+
+[State management: core concepts](../../state-management) |
+[Everything is a component](../../everything-is-a-component.md) |
+[Using dependency injections](../../dependency-injection.md) |
+[Fetching data with GraphQL and Apollo](../../../../graphql)

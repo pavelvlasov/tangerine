@@ -14,7 +14,7 @@ tangerine-compliant code
         * [UI components](architecture/general/components/components-types/ui)
             * [Writing examples](architecture/general/components/components-types/ui/examples.md)
         * [Services](architecture/general/components/components-types/services)
-        * Controllers: TBD
+        * [Controllers](architecture/general/components/components-types/controllers)
     * [State management: core concepts](architecture/general/components/state-management)
     * Prefer functional components over classes: TBD
     * Prefer Component over PureComponent: TBD
