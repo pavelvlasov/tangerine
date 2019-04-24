@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-tangerine",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Custom eslint rules used by Tangerine at Atlassian",
   "homepage": "https://github.com/atlassian/tangerine/tree/master/packages/eslint-plugin-tangerine",
   "author": "Atlassian",
