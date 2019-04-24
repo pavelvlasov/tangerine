@@ -1,5 +1,7 @@
 # State controllers
 
+Useful pre-read: [State Management](../../state-management)
+
 Every time there is a need to share some state or stateful logic between different parts of the
 application it should be extracted into a component that we call a "controller".
 
@@ -112,7 +114,7 @@ With hooks landing in React, stateful logic that will always stay just the logic
 require to share any state data between different parts of the app, could be extracted into a hook
 instead of a component.
 
-See the [guide on hooks (TBD)]() for more details
+See the [guide on hooks (TBD)](../../../hooks) for more details
 
 # Sharing state within a package
 
@@ -130,6 +132,8 @@ Consider, for example, a case when there is an “Issue View” package, that ha
 “activities” component in the main content area, “watchers” component in the sidebar area, and both
 of them (and only two of them) need to react to a situation when a user adds/removes themselves to
 the watchers list.
+
+![shared state example](./assets/shared-state-example.png)
 
 Instead of lifting the “watchers” state to Issue view component (as we had to do with Redux), which
 would turn it into an unmanageable monster if every sub-component did that, the “watchers” state can
@@ -154,3 +158,12 @@ conceptual, not in implementation), controllers should follow the same naming co
 
 The only difference compare to services (other than suffixes) is that there are no mandatory fields
 for Controllers
+
+---
+
+## Related reading
+
+[State management: core concepts](../../state-management) |
+[Everything is a component](../../everything-is-a-component.md) |
+[Using dependency injections](../../dependency-injection.md) |
+[Avoiding providers hell](../../composition-and-providers-hell.md)

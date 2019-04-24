@@ -26,7 +26,7 @@ never be any imports from “UI” within “services”.
 
 ---
 
-Related reading
+## Related reading
 
-[Services components](../../../components%20architecture/components-types/services) |
-[State management](../../components/state-management)
+[Architecture and guide for services components](../../components/components-types/controllers/README.md) |
+[State management: core concepts](../../components/state-management)
