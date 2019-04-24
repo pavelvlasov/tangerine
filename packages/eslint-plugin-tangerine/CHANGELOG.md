@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Add import/no-dot-prefix-in-upward-relative-imports rule
 - Add import/no-implicit-imports rule
 - Add import/order rule
+- Add react/lifecycle-method-arg-naming-rule
 
 ## 0.1.0
 

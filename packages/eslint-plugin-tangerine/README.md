@@ -58,6 +58,9 @@ Rules with the wrench icon 🔧 can automatically be fixed by passing the `--fix
 
 - Enforce specific order of ES6 imports ([import/order](./rules/import/order/README.md) 🔧)
 
+### react
+
+- Enforce consistent naming of react lifecycle method arguments ([react/lifecycle-method-arg-naming](./rules/react/lifecycle-method-arg-naming/README.md) 🔧)
 
 ## Contributing
 

@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "jest-junit": "^6.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
