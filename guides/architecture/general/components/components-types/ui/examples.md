@@ -127,59 +127,8 @@ import { FakeIssueViewDefaultExample } from './fake-issue-view/examples';
 const defaultIssuesList = () => <IssuesList FakeIssueView={FakeIssueViewDefaultExample} />;
 ```
 
-As mentioned above, examples like this are used for visual representation testing, they are
+As mentioned above, examples like this are used for visual presentation testing, they are
 basically the "unit tests" for your design. Testing of functionality and behaviour should happen
 only on the level of "integration" examples, where we mock all the necessary requests, provide
 initial data with sensible defaults and variations, and use Cypress automation tool to actually
 click though the components.
-
-## Naming convention
-
-In order to maintain logic of a component intact regardless of whether its dependendants are
-injected or imported directly, name of the component that is used in render function should reflect
-its actual name. In order to avoid naming collisions, names of imports of dependencies should have
-`DI` suffix in them.
-
-👍 Correct:
-
-```javascript
-import FakeIssueViewDI, { SomethingElse as SomethingElseDI } from './fake-issue-view';
-
-export default class FakeIssueList extends Component {
-    static defaultProps = {
-        FakeIssueView: FakeIssueViewDI,
-        SomethingElse: SomethingElseDI,
-    };
-
-    render() {
-        return (
-            <div>
-                <FakeIssueView />
-                <SomethingElse />
-            </div>
-        );
-    }
-}
-```
-
-👎 Incorrect:
-
-```javascript
-import FakeIssueView, { SomethingElse } from './fake-issue-view';
-
-export default class FakeIssueList extends Component {
-    static defaultProps = {
-        FakeIssueViewDI: FakeIssueView,
-        SomethingElseDI: SomethingElse,
-    };
-
-    render() {
-        return (
-            <div>
-                <FakeIssueViewDI />
-                <SomethingElseDI />
-            </div>
-        );
-    }
-}
-```
