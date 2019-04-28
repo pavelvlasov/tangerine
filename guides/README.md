@@ -12,7 +12,7 @@ tangerine-compliant code
     * [Dependency injection pattern](architecture/general/components/dependency-injection.md)
     * [Components types](architecture/general/components/components-types)
         * [UI components](architecture/general/components/components-types/ui)
-            * [Writing examples](architecture/general/components/components-types/ui/examples.md)
+            * [Writing internal examples](architecture/general/components/components-types/ui/examples.md)
         * [Services](architecture/general/components/components-types/services)
         * [Controllers](architecture/general/components/components-types/controllers)
     * [State management: core concepts](architecture/general/components/state-management)
@@ -24,8 +24,8 @@ tangerine-compliant code
     * [Controllers layer](architecture/general/apps/controllers-layer)
     * [Services layer](architecture/general/apps/services-layer)
     * [UI layer](architecture/general/apps/ui-layer)
-    * Public examples: TBD
-    * Integration tests: TBD
+    * [Writing public examples](architecture/general/apps/public-examples.md)
+    * [Cypress integration tests](architecture/general/apps/cypress-integration-tests.md)
 * [Pages](architecture/general/pages)
 * [Hooks](architecture/general/hooks)
 * [Styling Components](architecture/general/styling)
