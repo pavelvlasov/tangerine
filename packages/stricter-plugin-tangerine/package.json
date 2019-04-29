@@ -1,0 +1,27 @@
+{
+  "name": "stricter-plugin-tangerine",
+  "version": "0.1.0",
+  "description": "Custom stricter rules used by Tangerine at Atlassian",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atlassian/tangerine.git",
+    "directory": "packages/stricter-plugin-tangerine"
+  },
+  "author": "Atlassian",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "update-readme": "node ./scripts/generate-readme.js"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "lodash.omit": "^4.5.0",
+    "lodash.sortby": "^4.7.0",
+    "lodash.uniq": "^4.5.0",
+    "path-is-inside": "^1.0.2"
+  }
+}

@@ -3,5 +3,5 @@ const base = require('../../jest.config.base.js');
 
 module.exports = {
   ...base,
-  displayName: 'eslint-plugin-tangerine',
+  displayName: 'stricter-plugin-tangerine',
 };

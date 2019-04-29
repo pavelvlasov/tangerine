@@ -31,7 +31,7 @@ const error = {
 };
 
 const baseConfiguration = {
-  srcRoots: ['rules/import/order/test-data/test-files'],
+  srcRoots: [`${__dirname}/test-data/test-files`],
   moduleImports: [[/^react/], [/^redux$/]],
   absoluteImports: [[/^b/], [/^a/]],
   relativeImports: [/^common$/],

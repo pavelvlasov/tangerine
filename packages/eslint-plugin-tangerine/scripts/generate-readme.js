@@ -1,7 +1,8 @@
 const fs = require('fs');
+const path = require('path');
 
 const TEMPLATE_PATH = './templates/README.md';
-const RULES_DIR_PATH = './rules';
+const RULES_DIR_PATH = './src/rules';
 
 const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
 
@@ -15,7 +16,7 @@ const categoryMarkdowns = categoryFolders.map(categoryFolder => {
     const ruleFolderPath = `${categoryFolderPath}/${ruleFolder}`;
 
     // eslint-disable-next-line global-require, import/no-dynamic-require
-    const rule = require(`${ruleFolderPath}/index.js`);
+    const rule = require(path.resolve(`${ruleFolderPath}/index.js`));
 
     const fixableLabel = rule.meta.fixable ? ` 🔧` : '';
 

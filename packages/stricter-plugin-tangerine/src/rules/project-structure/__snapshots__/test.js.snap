@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchHierarchy Fail if optional name matches but not the structure 1`] = `
+Object {
+  "dirs": Object {
+    "isMatch": false,
+    "missing": Object {
+      "foo": Object {
+        "matches": Array [
+          Object {
+            "files": Object {
+              "extra": Object {
+                "failure": Object {
+                  "type": "file",
+                },
+              },
+              "isMatch": false,
+              "missing": Object {
+                "baz": Object {
+                  "type": "file",
+                },
+              },
+            },
+            "isMatch": false,
+          },
+        ],
+        "type": "bar",
+      },
+    },
+  },
+  "isMatch": false,
+}
+`;
+
+exports[`matchHierarchy Produces different mismatches 1`] = `
+Object {
+  "dirs": Object {
+    "extra": Object {
+      "extra-dir": Object {
+        "type": "dir",
+      },
+    },
+    "isMatch": false,
+    "missing": Object {
+      "missing-dir": Object {
+        "type": "dir",
+      },
+      "test-dir-missing": Object {
+        "matches": Array [
+          Object {
+            "dirs": Object {
+              "extra": Object {
+                "test-dir-extra": Object {
+                  "matches": Array [
+                    Object {
+                      "files": Object {
+                        "isMatch": false,
+                        "missing": Object {
+                          "not-existing-file": Object {
+                            "type": "file",
+                          },
+                        },
+                      },
+                      "isMatch": false,
+                    },
+                  ],
+                  "type": "dir",
+                },
+              },
+              "isMatch": false,
+            },
+            "isMatch": false,
+          },
+        ],
+        "type": "app",
+      },
+    },
+  },
+  "files": Object {
+    "extra": Object {
+      "extra-file": Object {
+        "type": "file",
+      },
+    },
+    "isMatch": false,
+    "missing": Object {
+      "missing-file": Object {
+        "type": "file",
+      },
+    },
+  },
+  "isMatch": false,
+}
+`;
+
+exports[`performMatch can identify mismatches 1`] = `
+Object {
+  "dirs": Object {
+    "extra": Object {
+      "navigation": Object {
+        "matches": Array [
+          Object {
+            "dirs": Object {
+              "isMatch": false,
+              "missing": Object {
+                "ops": Object {
+                  "type": "dir",
+                },
+              },
+            },
+            "files": Object {
+              "isMatch": false,
+              "missing": Object {
+                "main.js": Object {
+                  "type": "file",
+                },
+              },
+            },
+            "isMatch": false,
+          },
+        ],
+        "type": "dir",
+      },
+    },
+    "isMatch": false,
+  },
+  "isMatch": false,
+}
+`;
