@@ -1,15 +1,16 @@
 # Prefer functional components over classes
 
-React 16.8 is bringing hooks, so there are some strong reasons to consider the usage of functional components over classes.
+Functional components have several advantages over classes: smaller bundle size and less boilerplate code.
+With hooks coming in React@16.8 we can utilise functional components to the fullest.
 
-## Why not to use it
+## Why not to use classes
 
 **Bundle size**.
 The main reason for the change is the fact, that classes as components significantly increase bundle size.
 
 If we take the following class:
 ```js
-import React, {Component} from 'react';
+import React, { Component } from 'react';
  
 export class MyComponent extends Component {
     static defaultProps = {
@@ -86,11 +87,11 @@ exports.default = _default;
 
 You can check it out in [babel playground](https://babeljs.io/en/repl)
 
-**When to use it**
+**When to use classes**
 
 Migration to hooks might take a while, so it makes sense to keep using classes for statefull components or when lifecycle methods are required.
 
-**Lambdas vs Functions**
+**Prefer functions over lambdas**
 Functions are more preferable over lambdas as it has less symbol "noise" and better syntax highlighting:
 
 ```js
