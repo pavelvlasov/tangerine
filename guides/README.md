@@ -16,7 +16,7 @@ tangerine-compliant code
         * [Services](architecture/general/components/components-types/services)
         * [Controllers](architecture/general/components/components-types/controllers)
     * [State management: core concepts](architecture/general/components/state-management)
-    * Prefer functional components over classes: TBD
+    * [Prefer functional components over classes](architecture/general/components/prefer-functional-components-over-classes.md)
     * [Prefer Component over PureComponent](architecture/general/components/prefer-component-over-pure-component.md)
     * Controlled and uncontrolled props: TBD
 * [Apps](architecture/general/apps)
